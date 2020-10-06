@@ -1,0 +1,7 @@
+1 - To play Daniel Schroeder's Pitch Games, both LoopBe1 and PD-Extended should be installed on the computer. They are both free and the installation files are included in this folder
+
+2 - Set the default "Midi Music Playback" device in Windows to be "LoopBe Internal MIDI". This can be found in the "Sound and Audio Devices" properites in the Control Panel, under the Audio tab.
+
+3 - Run the game by going into "CS 827 Project Source Code\bin\Release" and running "CS 827 Project Source Code.exe". The PD Patch should show up in the background. Select it, go to the Media option in the Menu Bar and choose "MIDI settings...", then set input device 1 to "LoopBe Internal MIDI". If this option is not already there by default, you will need to do this each time you play the game (in order to make the Shooting Gallery mini-game work). 
+
+To make it use LoopBe Internal MIDI by default, you can open the "CS 827 Project Source Code.sln" in Visual Studio 2005, open formMain.cs and search for "cPDProcess.StartInfo.Arguments". Then change the 2 in the "-midiindev 2" part of the string to the proper number to use for LoopBe Internal MIDI. The number to use will be the order that the LoopBe Internal MIDI option shows up in the "MIDI settings..." window in PD.  So if it is the first option, use the number 1; if it's the 2nd option, use the number 2, and so on.
