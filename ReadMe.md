@@ -13,7 +13,7 @@ The mini-games include single player pong, a pitch matching game where you must 
 
 ## Play it
 
-To play the game, you'll need to clone the repository (or download it as a zip) and then follow [the setup instructions](src/External Dependencies/Setup%20Instructions.txt).
+To play the game, you'll need to clone the repository (or download it as a zip) and then follow [the setup instructions](src/External%20Dependencies/Setup%20Instructions.txt).
 
 ## History
 
