@@ -1,0 +1,15 @@
+- Have midi info control game data for a mini game or two -> would need to use keyboard or mouse for input if we want the midi sound to play
+
+- Have F1 or I key designated for mini-game instructions
+
+- Try analyzing sound for formants -> Player must say "baaa" in the different pitches then only process the "baaa"s as input
+
+- How to separate voice from sounds/music as research
+
+- Under the title put "Games you control with your voice" or something like that
+
+- For balloon fill game where you have to hold a pitch, have the target pitch change position every 5-10 seconds -> the closer you are to the target to faster it fills up
+
+- Could use amplitude as a way to move horizontally maybe, then just have 5 targets the player must hit in 10 seconds or something
+
+- Have a floating balloon game (like duck game) but with 128 "rows" for the balloons, where a row corresponds to the played midi note. Could have speed of balloon correspond to notes velocity. Could also have bonus points if the sound is an attack (last audio input < 1 second ago), so they get more points for making just that notes sound, instead of producing a sound the whole time. Balloons could float up and down too as long as the are in the right spot in the middle (adds some difficulty)
